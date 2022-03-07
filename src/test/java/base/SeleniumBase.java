@@ -11,10 +11,6 @@ public class SeleniumBase {
     public static WebDriver driver;
     private String baseUrl = "https://rahulshettyacademy.com/AutomationPractice/";
 
-    public String getBaseUrl() {
-        return baseUrl;
-    }
-
     @BeforeClass
     public void setUp() {
         System.setProperty("webdriver.chrome.driver", "C:\\drivers\\chromedriver.exe");
